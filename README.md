@@ -1,17 +1,15 @@
 # File Upload & Preview App
 ## Description
 
-The File Upload & Preview App is a simple and interactive web application that allows users to upload files and instantly preview them before submission. It enhances user experience by providing real-time feedback, validating file types and sizes, and preventing incorrect uploads.
+he File Upload & Preview App is a lightweight and user-friendly web application that enables users to upload files and instantly preview them before submission. The primary goal of this application is to improve user experience by providing real-time visual feedback and ensuring that only valid files are selected.
 
-This project is built using pure frontend technologies and does not require any backend.
+The app uses the browser’s FileReader API to read and display file content dynamically without requiring any server-side processing. It supports validation of file types and sizes, helping to prevent incorrect or unsupported uploads.
 
-🚀 Features
-📤 Upload files from local system
-👀 Instant file preview (images, videos, etc.)
-✅ File type validation
-⚠️ File size validation
-❌ Remove or change uploaded file
-💡 User-friendly interface
+Designed using pure frontend technologies (HTML, CSS, and JavaScript), this project demonstrates how modern web applications can deliver interactive features efficiently without relying on a backend.
+
+This application can be used in real-world scenarios such as profile image uploads, document submission systems, and content-sharing platforms where preview and validation are essential.
+
+
 ## User Flow
 User opens the web page
 Clicks on the "Choose File" button
@@ -24,10 +22,19 @@ File preview is displayed instantly
 User can:
 Confirm the file
 Remove or replace the file
+
 ## Tech Stack
 Frontend
-HTML – Structure of the application
-CSS – Styling and layout
+HTML : HTML is used to build the basic structure of the web page.
+It provides elements like <input type="file">, buttons, and preview areas.
+Without HTML, there is no interface for users to interact with.
+
+Backend :
 JavaScript – Functionality and logic
+Node.js – Runtime Environment
+Handles server-side logic
+Processes file upload requests from the frontend
+Efficient for handling asynchronous operations
+
 APIs Used
 FileReader API – To read and preview files
