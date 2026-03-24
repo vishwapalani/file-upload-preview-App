@@ -1,5 +1,5 @@
 # File Upload & Preview App
-##Description
+## Description
 
 The File Upload & Preview App is a simple and interactive web application that allows users to upload files and instantly preview them before submission. It enhances user experience by providing real-time feedback, validating file types and sizes, and preventing incorrect uploads.
 
